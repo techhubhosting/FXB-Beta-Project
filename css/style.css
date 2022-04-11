@@ -12,7 +12,7 @@
 body {
   color: #fff;
   background: #111111;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -20,8 +20,10 @@ body {
 
 /* Heading Fonts Size */
 h1, h2, h3 {
-font-family: 'Fira Sans', sans-serif;
-  color:white;
+font-family: 'Old Standard TT', sans-serif;
+  color:grey;
+font-style: oblique;
+  font-weight: 400;
 }
 
 h1, h2 {
@@ -29,7 +31,7 @@ h1, h2 {
 }
 
 h4 {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Old Standard TT", sans-serif;
 }
 
 h1 {
@@ -49,7 +51,7 @@ h4 {
 }
 
 p {
- font-family: 'Work Sans', sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
 /*---------- --------------
@@ -97,7 +99,7 @@ button:hover, button:focus {
   border-radius: 0;
   background:grey;
   border-color:grey;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -291,13 +293,14 @@ button:hover, button:focus {
 
 .sticky-header {
   background: black;
+
 }
 
 .menu li a {
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   transition: 0.5s;
   position: relative;
@@ -715,12 +718,12 @@ div.loading {
 ***********************************************/
 .case-study {
   padding-top: 80px;
-  background: #171717;
+  background: white;
 }
 
 .case-study .content h4 {
   padding-bottom: 13px;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Old Standard TT', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   color: white;
@@ -1027,7 +1030,7 @@ div.loading {
 .features-title,
 .price {
   text-transform: uppercase;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -1195,7 +1198,7 @@ hr.hr-border {
 
 .overlay .content h4 {
   margin-bottom: 3px;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Old Standard TT', sans-serif;
   text-transform: uppercase;
   margin: 0;
   font-weight: 500;
@@ -1285,7 +1288,7 @@ hr.hr-border {
 }
 
 .service-title {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   padding: 0 0 15px;
   margin: 0 0 20px;

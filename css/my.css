@@ -16,7 +16,7 @@ width: 200px;}
     width: 100%;
   }
   .header-text{
-  	font-size: 15px
+  	font-size: 20px;
   }
 .case-study1 {
   padding-top: 80px;
@@ -25,7 +25,7 @@ width: 200px;}
 
 .case-study1 .content h4 {
   padding-bottom: 13px;
-  font-family: "Spline Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   color:black;
@@ -61,7 +61,7 @@ text-align: center;
   border-radius: 50px
 }
 .team-names{
-  font-family: Fira Sans;
+  font-family: Montserrat;
   color: grey;
   font-size: 35px;
 }
@@ -72,21 +72,23 @@ text-align: center;
 }
 .team-know{
   font-size: 45px;
-  font-family: Fira Sans;
+  font-family: Montserrat;
 }
 #team-img{
   height:400px;
   width:400px
 }
 .case-description{
-  font-family: Fira Sans;
+  font-family: Montserrat;
   font-size: 50px;
 }
 .paypal-payment{
   color: grey;
   font-size: 16px;
-  font-family: Fira Sans;
+  font-family: Montserrat;
   text-align: center;
   margin-bottom: 1.25rem;
 }
-
+#img-center{
+  background: center;
+}
